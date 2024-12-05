@@ -7,22 +7,30 @@
 
 body {
     background-color: white ;
+    color: white;
 }
 
 .barra {
     display: flex;
     background-color: #691894;
-    width: 1501px;
+    width: 100%; /* Ajusta a largura para ocupar todo o espaço disponível */
     height: 40px;
     align-items: center;
-    justify-content: center; /* Centraliza o conteúdo da sidebar */
+    justify-content: space-between; /* Distribui o conteúdo entre as extremidades */
     color: white;
+    padding: 0 20px; /* Adiciona espaçamento interno nas laterais */
+    box-sizing: border-box; /* Garante que o padding seja considerado na largura total */
 }
 
 .barra h1 {
     font-family: "Alex Brush", cursive;
+    margin: 0; /* Remove margens externas */
 }
 
+.barra .assistente {
+    margin: 0; /* Remove margens externas */
+    text-align: right; /* Alinha o texto à direita */
+}
 .sidebar {
     display: flex;
     background-color: #7A1CAC;
@@ -30,13 +38,14 @@ body {
     height: 40px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    border-bottom:  0.4px solid #5d1683;
+    color: white;
 }
 .sidebar a {
     padding: 15px;
     margin: 10px;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     transition: 0.3s;
 }
@@ -46,4 +55,10 @@ body {
 .sidebar footer {
     margin: 15px;
     color: rgb(0, 0, 0);
+}
+
+
+.img_propaganda {
+    width: 100%;
+    height: 600px;
 }
