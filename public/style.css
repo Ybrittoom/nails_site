@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white ;
+    color: rgb(0, 0, 0);
+}
+
+.barra {
+    display: flex;
+    background-color: #691894;
+    width: 100%; /* Ajusta a largura para ocupar todo o espaço disponível */
+    height: 40px;
+    align-items: center;
+    justify-content: space-between; /* Distribui o conteúdo entre as extremidades */
+    color: white;
+    padding: 0 20px; /* Adiciona espaçamento interno nas laterais */
+    box-sizing: border-box; /* Garante que o padding seja considerado na largura total */
+}
+
+.barra h1 {
+    font-family: "Alex Brush", cursive;
+    margin: 0; /* Remove margens externas */
+}
+
+.barra .assistente {
+    margin: 0; /* Remove margens externas */
+    text-align: right; /* Alinha o texto à direita */
+}
+.sidebar {
+    display: flex;
+    background-color: #7A1CAC;
+    width: 1501px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-bottom:  0.4px solid #5d1683;
+    color: white;
+}
+.sidebar a {
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: 0.3s;
+}
+.sidebar a:hover {
+    padding: 30px
+}
+.sidebar footer {
+    margin: 15px;
+    color: rgb(0, 0, 0);
+}
+
+
+.img_propaganda {
+    width: 100%;
+    height: 600px;
+}
+
+.p_propaganda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 12px;
+    color: #AD49E1;
+}
+
+
+.div_especificacoes {
+    background-color: #f9f9ff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Responsividade */
+    gap: 20px; /* Espaçamento entre os cartões */
+    padding: 20px;
+}
+
+.div_especificacoes > div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra uniforme */
+    text-align: center;
+    padding: 15px;
+    flex: 1 1 200px; /* Garante que os cartões se ajustem ao espaço */
+    min-height: 200px; /* Define a altura mínima igual para todos os cartões */
+    max-width: 250px; /* Limita a largura máxima para manter uniformidade */
+    display: flex; /* Adicionado para alinhar o conteúdo internamente */
+    flex-direction: column;
+    justify-content: space-between; /* Distribui espaço entre título, texto e rodapé */
+}
+
+.div_especificacoes h2 {
+    color: black;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.div_especificacoes p {
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+.div_especificacoes img.icon {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 10px auto; /* Centraliza o ícone */
+}
+
+/* Ajuste na sombra para todos os cartões */
+.div_especificacoes > div:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra mais forte no hover */
+    transition: box-shadow 0.3s ease; /* Efeito de transição */
+}
