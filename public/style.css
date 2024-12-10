@@ -156,20 +156,34 @@ body {
     margin-top: 10px;
 }
 
-/*estilos das img trabalhos*/
+/*estilo do section trabalho*/
 .img_trabalhos {
     display: flex;
     justify-content: center;
-    background-color: #7a1cac3b;
+    gap: 40px; /* Adiciona espaço entre os itens */
+    flex-wrap: wrap; /* Permite que as imagens quebrem linha se necessário */
+    background-color: #7a1cac80;
     
+}
+
+.img_trabalhos a {
+    text-align: center; /* Centraliza o texto sob a imagem */
+    display: flex;
+    flex-direction: column; /* Coloca imagem e texto em coluna */
+    align-items: center; /* Centraliza conteúdo na coluna */
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: white; /* Mantém a cor do texto padrão */
+    margin-bottom: 40px;
 }
 
 .img_trabalhos img {
     width: 170px;
     height: 170px;
-    margin: 50px;
+    margin-bottom: 10px; /* Espaço entre imagem e texto */
     border-radius: 1000px;
     transition: 0.3s;
+    margin-top: 40px;
+    
 }
 
 .img_trabalhos img:hover {
@@ -177,11 +191,26 @@ body {
     height: 175px;
     box-shadow: 2px 6px 12px #6918946e;
 }
- 
+
 .titulo_trabalho {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #7a1cac3b;
+    background-color: #7a1cac80;
     margin-top: 50px;
+    color: white;
+}
+
+.p_trabalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AD49E1;
+    margin: 30px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.p_trabalho:hover {
+    font-size: 23px;
 }
