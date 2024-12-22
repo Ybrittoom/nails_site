@@ -1,19 +1,23 @@
-const imagesContainer = document.querySelector('.carousel-images');
-const nextButton = document.querySelector('.next');
-const prevButton = document.querySelector('.prev');
+function chamarAssistente() {
+    const mivy = document.getElementById('mivy')
+    const app = document.getElementById('app')
+    const textoModalMivy = document.getElementById('textoModalMivy')
+    const modalMivyAssistente = document.getElementById('modalMivyAssistente')
+    const memoji = document.getElementById('memoji')
 
-let index = 0;
+    modalMivyAssistente.style.display = 'block'
 
-function updateCarousel() {
-    imagesContainer.style.transform = `translateX(-${index * 100}%)`;
+
+    setTimeout(() => {
+        textoModalMivy.textContent = "Eu sou a Assistente Mivy"
+        falaMivy2()
+    }, 3000);
+
+    function falaMivy2() {
+        setTimeout(() => {
+        memoji.src = 'image/Untitled image.png'
+        textoModalMivy.textContent = "Estou aqui para tirar suas duvidas e te ajudar ficar mais linda✨"
+    }, 3000);
+    }
+    
 }
-
-nextButton.addEventListener('click', () => {
-    index = (index + 1) % imagesContainer.children.length;
-    updateCarousel();
-});
-
-prevButton.addEventListener('click', () => {
-    index = (index - 1 + imagesContainer.children.length) % imagesContainer.children.length;
-    updateCarousel();
-});
