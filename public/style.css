@@ -255,6 +255,47 @@ body {
     font-size: 21px;
 }
 
+/*estilo do assistente mivy perguntas e resposta*/
+.faq-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.faq {
+    background-color: #333;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transform: translateY(20px);
+    opacity: 0;
+    animation: fadeInUp 0.5s forwards;
+    width: 1000px;;
+}
+
+.faq-question {
+    font-weight: bold;
+    color: #ffffff;
+    width: 400px;
+    font-size: 18px;
+}
+
+.faq-answer {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+@keyframes fadeInUp {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
 
 /*teste da secao do sobre mim*/
 
