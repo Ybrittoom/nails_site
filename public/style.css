@@ -272,7 +272,7 @@ body {
     transform: translateY(20px);
     opacity: 0;
     animation: fadeInUp 0.5s forwards;
-    width: 1000px;;
+    width: 1000px;
 }
 
 .faq-question {
