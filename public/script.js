@@ -39,36 +39,36 @@ function chamarAssistente() {
         const faqs = [
             { image: "image/memoji1.png", pergunta: "Vocês fazem decoração com pedras?", resposta: "Sim! Pedrarias incríveis para deixar suas unhas únicas. 💎", classificacao: "servico" },
             { image: "image/test.png", pergunta: "Quais serviços vocês tem?", resposta: "Manicure, pedicure, nail art, lixamento, alongamento, e muito mais!🤩" , classificacao: "servico" },
-            { image: "", pergunta: "Quais tipos de decoração vocês oferecem?", resposta: "Oferecemos artistica, minimalista, tematica(eventos) e muito mais!💓" , classificacao: "servico"},
-            { image: "", pergunta: "Fazem unhas para eventos, como casamento?", resposta: "Sim, realizamos unhas especiais para eventos como casamentos, formaturas e festas.", classificacao: "servico" },
-            { image: "", pergunta: "Quais são os tipos de esmaltação disponíveis?", resposta: "Trabalhamos com esmaltação tradicional, gel, semi-permanente e efeito degradê." },
-            { image: "", pergunta: "Voces fazem atendimento a domicilio?", resposta: "Nao! No momento estamos so com o studio🏠 ❌", classificacao: "atendimento"},
-            { image: "", pergunta: "Vocês aceitam cartões de crédito, debito ou Pix?", resposta: "Sim, aceitamos cartões de crédito, débito e PIX.", classificacao: "atendimento"},
-            { image: "", pergunta: "Vocês oferecem consultoria sobre o melhor estilo de unha para mim?", resposta: "Sim, temos profissionais que irão te orientar sobre o melhor formato, cor e estilo de unha para sua personalidade e ocasião.", classificacao: "atendimento"},
-            { image: "", pergunta: "O atendimento é apenas presencial ou também online?", resposta: "O agendamento pode ser feito online, mas o atendimento é presencial no studio.", classificacao: "atendimento"},
-            { image: "", pergunta: "Quais marcas de esmaltes vocês usam?", resposta: "Trabalhamos com marcas premium como Risqué, Colorama, OPI e Dailus." , classificacao: "equipamentos"},
-            { image: "", pergunta: "Os equipamentos são esterilizados?", resposta: "Sim, todos os nossos equipamentos passam por um rigoroso processo de esterilização para garantir sua segurança.", classificacao: "equipamentos"},
-            { image: "", pergunta: "Vocês têm esmaltes hipoalergênicos?", resposta: "Sim, temos uma linha de esmaltes hipoalergênicos para clientes com pele sensível ou alergias.", classificacao: "equipamentos"},
-            { image: "", pergunta: "Qual o horario de funcionamento?", resposta: "Nos funcionamos das 8h a 17h", classificacao: "equipamentos"},
-            { image: "", pergunta: "Preciso marca um horario. Como faço?", resposta: `Entre em contato com nosso atendimento, ou, clique em "agendar" no final do site`, classificacao: "funcionamento"},
-            { image: "", pergunta: "Quais são os dias de funcionamento?", resposta: "Funcionamos de segunda a sábado.", classificacao: "funcionamento"},
-            { image: "", pergunta: "Qual é o horário mais tranquilo para agendar?", resposta: "Geralmente, os horários da manhã, entre 9h e 11h, são mais tranquilos.", classificacao: "funcionamento"},
-            { image: "", pergunta: "O studio abre aos domingos?", resposta: "Não, mas podemos atender em casos especiais com agendamento antecipado.", classificacao: "funcionamento"},
-            { image: "", pergunta: "Posso marcar um horário de última hora?", resposta: "Sim. Mas recomendamos marcar com antecedencia", classificacao: "funcionamento"},
-            { image: "", pergunta: "Qual é o endereço do studio?", resposta: "R. João Benedito de Camargo, 186 - Sumaré, SP", classificacao: "studio"},
-            { image: "", pergunta: "Vocês têm estacionamento?", resposta: "Nao, infelizmente nao temos", classificacao: "studio"},
-            { image: "", pergunta: "O ambiente é climatizado?", resposta: "Sim, o ambiente e completo para o conforto dos nossos clientes", classificacao: "studio"},
-            { image: "", pergunta: "Tem música ambiente ou é silencioso?", resposta: "Temos sim, as musicas depende do gosto dos nossos clientes", classificacao: "studio"},
-            { image: "", pergunta: "Vocês atendem crianças?", resposta: "Sim, temos serviços específicos para crianças, como esmaltação delicada e decorações divertidas.", classificacao: "publico"},
-            { image: "", pergunta: "Quais decorações são mais populares para meninas?", resposta: "Decorações com desenhos de personagens, adesivos temáticos e glitter são muito populares entre as meninas.", classificacao: "publico"},
-            { image: "", pergunta: "Crianças precisam de agendamento prévio?", resposta: "Sim, recomendamos agendamento prévio para atender da melhor forma.", classificacao: "publico"},
-            { image: "", pergunta: "Tem algum desconto para idosas?", resposta: "Sim, oferecemos descontos especiais para idosas acima de 60 anos.", classificacao: "publico"}
+            { image: "image/memoji2.png", pergunta: "Quais tipos de decoração vocês oferecem?", resposta: "Oferecemos artistica, minimalista, tematica(eventos) e muito mais!💓" , classificacao: "servico"},
+            { image: "image/memoji4.png", pergunta: "Fazem unhas para eventos, como casamento?", resposta: "Sim! Realizamos unhas especiais para eventos como casamentos, formaturas e festas.", classificacao: "servico" },
+            { image: "image/memoji5.png", pergunta: "Quais são os tipos de esmaltação disponíveis?", resposta: "Trabalhamos com esmaltação tradicional, gel, semi-permanente e efeito degradê." },
+            { image: "image/memoji6.png", pergunta: "Voces fazem atendimento a domicilio?", resposta: "Nao! No momento estamos so com o studio🏠 ❌", classificacao: "atendimento"},
+            { image: "image/memoji7.png", pergunta: "Vocês aceitam cartões de crédito, debito ou Pix?", resposta: "Sim, aceitamos cartões de crédito, débito e PIX.", classificacao: "atendimento"},
+            { image: "image/memoji8.png", pergunta: "Vocês oferecem consultoria sobre o melhor estilo de unha para mim?", resposta: "Sim, temos profissionais que irão te orientar sobre o melhor formato, cor e estilo de unha para sua personalidade e ocasião.", classificacao: "atendimento"},
+            { image: "image/memoji9.png", pergunta: "O atendimento é apenas presencial ou também online?", resposta: "O agendamento pode ser feito online, mas o atendimento é presencial no studio.", classificacao: "atendimento"},
+            { image: "image/memoji10.png", pergunta: "Quais marcas de esmaltes vocês usam?", resposta: "Trabalhamos com marcas premium como Risqué, OPI e Dailus." , classificacao: "equipamentos"},
+            { image: "image/memoji11.png", pergunta: "Os equipamentos são esterilizados?", resposta: "Sim, todos os nossos equipamentos passam por um rigoroso processo de esterilização para garantir sua segurança.", classificacao: "equipamentos"},
+            { image: "image/memoji12.png", pergunta: "Vocês têm esmaltes hipoalergênicos?", resposta: "Sim, temos uma linha de esmaltes hipoalergênicos para clientes com pele sensível ou alergias.", classificacao: "equipamentos"},
+            { image: "image/memoji13.png", pergunta: "Qual o horario de funcionamento?", resposta: "Nos funcionamos das 8h a 17h", classificacao: "equipamentos"},
+            { image: "image/memoji14.png", pergunta: "Preciso marca um horario. Como faço?", resposta: `Entre em contato com nosso atendimento, ou, clique em "agendar" no final do site`, classificacao: "funcionamento"},
+            { image: "image/memoji15.png", pergunta: "Quais são os dias de funcionamento?", resposta: "Funcionamos de segunda a sábado.", classificacao: "funcionamento"},
+            { image: "image/memoji.png", pergunta: "Qual é o horário mais tranquilo para agendar?", resposta: "Geralmente, os horários da manhã, entre 9h e 11h, são mais tranquilos.", classificacao: "funcionamento"},
+            { image: "image/memoji.png", pergunta: "O studio abre aos domingos?", resposta: "Não, mas podemos atender em casos especiais com agendamento antecipado.", classificacao: "funcionamento"},
+            { image: "image/memoji.png", pergunta: "Posso marcar um horário de última hora?", resposta: "Sim. Mas recomendamos marcar com antecedencia", classificacao: "funcionamento"},
+            { image: "image/memoji.png", pergunta: "Qual é o endereço do studio?", resposta: "R. João Benedito de Camargo, 186 - Sumaré, SP", classificacao: "studio"},
+            { image: "image/memoji.png", pergunta: "Vocês têm estacionamento?", resposta: "Nao, infelizmente nao temos", classificacao: "studio"},
+            { image: "image/memoji.png", pergunta: "O ambiente é climatizado?", resposta: "Sim, o ambiente e completo para o conforto dos nossos clientes", classificacao: "studio"},
+            { image: "image/memoji.png", pergunta: "Tem música ambiente ou é silencioso?", resposta: "Temos sim, as musicas depende do gosto dos nossos clientes", classificacao: "studio"},
+            { image: "image/memoji.png", pergunta: "Vocês atendem crianças?", resposta: "Sim, temos serviços específicos para crianças, como esmaltação delicada e decorações divertidas.", classificacao: "publico"},
+            { image: "image/memoji.png", pergunta: "Quais decorações são mais populares para meninas?", resposta: "Decorações com desenhos de personagens, adesivos temáticos e glitter são muito populares entre as meninas.", classificacao: "publico"},
+            { image: "image/memoji.png", pergunta: "Crianças precisam de agendamento prévio?", resposta: "Sim, recomendamos agendamento prévio para atender da melhor forma.", classificacao: "publico"},
+            { image: "image/memoji.png", pergunta: "Tem algum desconto para idosas?", resposta: "Sim, oferecemos descontos especiais para idosas acima de 60 anos.", classificacao: "publico"}
         ]
 
         
 
         // const perguntasAleatorias = faqs.sort(() => 0.5 - Math.random()).slice(0, 3)
-        const perguntasAleatorias = faqs.slice(0, 3)
+        const perguntasAleatorias = faqs.slice(12, 15)
         faqContainer.innerHTML = ""
 
         perguntasAleatorias.forEach((faq, index) => {
